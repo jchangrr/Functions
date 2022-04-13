@@ -85,6 +85,9 @@ Write a function called "check_answer" which will determine if a given addition 
 #             (1 + 2 = 3).
 # output:     returns True if the expression is correct, False if it is not correct
 
+Part 2f:
+Move all of your functions into an external module. 
+
 Part 2g:
 Finally, put everything together and write a program that lets the user practice a series of random addition and subtraction problems. Begin by asking the user for a number of problems (only accept positive values) and a size for their numbers (only accept numbers between 5 and 10). Also prompt them for a single character to be used to generate their patterns - only accept single character strings (i.e. 'a' is OK, but 'apple' is not). The generate a series of random addition and subtraction problems - display the numbers to the user with your digital display functions. Then prompt the user for an answer and check the answer using your check_answer function. Your program should also keep track of how many correct questions the user answered during their game. 
 
